@@ -21,7 +21,11 @@ header {
 
 .container {
     max-width: 1440px;
-    margin: auto;
+    height: 5518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: wrap;
 }
 
 .tabloid {
@@ -31,6 +35,8 @@ header {
 }
 
 .tabloid-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,6 +49,7 @@ header {
 }
 
 .counter {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
